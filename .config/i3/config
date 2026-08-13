@@ -188,10 +188,4 @@ for_window [class="^.*"] border pixel 2
 exec_always --no-startup-id feh --bg-scale $HOME/media/images/backgrounds/redforest.jpg
 exec_always --no-startup-id xrandr --output DP-1 --mode 1920x1080 --rate 200
 
-# demons are coming
-exec --no-startup-id /usr/bin/otd-daemon
-exec --no-startup-id /usr/bin/pipewire
-exec --no-startup-id /usr/bin/dunst
-
-# get going
-exec --no-startup-id /usr/bin/mullvad connect
+exec --no-startup-id $HOME/.local/bin/startup.sh
