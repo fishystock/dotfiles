@@ -8,5 +8,5 @@ xrandr --output DP-1 --mode 1920x1080 --rate 200
 /usr/bin/dunst &
 /usr/bin/mullvad connect &
 
-# cinny chat
-i3-msg 'workspace 1; exec /usr/bin/librewolf http://localhost:8080/'
+i3-msg 'workspace 3; exec /usr/bin/librewolf http://localhost:8080/' # cinny
+i3-msg 'workspace 10; exec /usr/bin/thunderbird'
