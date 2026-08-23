@@ -6,3 +6,4 @@ export XDG_STATE_HOME="${XDG_STATE_HOME:-$HOME/.local/state}"
 export INPUTRC="$XDG_CONFIG_HOME/readline/inputrc"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export HISTFILE="$XDG_STATE_HOME/zsh/zsh_history"
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
