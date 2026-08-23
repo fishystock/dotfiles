@@ -1,6 +1,9 @@
 ZSH_THEME="gentoo"
 
-plugins=(git)
+plugins=(
+	git
+	colorize	
+)
 
 source $HOME/.config/oh-my-zsh/oh-my-zsh.sh
 
@@ -16,3 +19,7 @@ alias irssi="irssi --config="$XDG_CONFIG_HOME"/irssi/config --home="$XDG_DATA_HO
 alias wget="wget --no-hsts"
 
 export PATH=$HOME/.local/bin:$PATH
+
+# this is hacky, but librewolf is annoying.
+rm -rf ~/.pki
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -185,7 +185,7 @@ bar {
 
 # visuals
 for_window [class="^.*"] border pixel 2
-exec_always --no-startup-id feh --bg-scale $HOME/media/images/backgrounds/redforest.jpg
+exec_always --no-startup-id feh --no-fehbg --bg-scale $HOME/media/images/backgrounds/redforest.jpg
 exec_always --no-startup-id xrandr --output DP-1 --mode 1920x1080 --rate 200
 
 exec --no-startup-id $HOME/.local/bin/startup.sh
