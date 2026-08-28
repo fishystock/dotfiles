@@ -105,7 +105,7 @@ for_window [class="^.*"] border pixel 1
 # gaps inner 5
 # gaps outer 2
 
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec foot
 bindsym $mod+d exec --no-startup-id env PATH="$HOME/.local/bin:$PATH" wofi --show run -c "$HOME/.config/wofi/style.css"
 
 exec_always --no-startup-id swaybg -i $HOME/media/images/backgrounds/redforest.jpg
