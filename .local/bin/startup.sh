@@ -1,6 +1,7 @@
 #!/bin/bash
 
-xrandr --output DP-1 --mode 1920x1080 --rate 200
+export DOTNET_ROOT="$HOME/media/applications/dotnet"
+export DOTNET_ROOT_X64="$HOME/media/applications/dotnet"
 
 # daemons
 /usr/bin/otd-daemon &
